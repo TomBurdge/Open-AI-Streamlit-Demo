@@ -21,6 +21,18 @@ Probably only domain-specific specialists know that Chattem was acquired by Sano
 
 But OpenAI, which was effectively trained on the entire internet, does know this.
 
+## Prompt safety handling
+
+A common issue with any app is that users, or those impersonating authorised users, try to misuse the app.
+
+The most famous example of this is SQL insertion - where attackers try to insert unwanted behaviour such as """DELETE TABLE USERS""" into a SQL statement.
+
+This can happen with LLM prompts too - a user could try to get OpenAI to expose a password or behave discriminatorily.
+
+Probably the easiest way to handle this is to use an LLM to screen the message before it is actually processed.
+
+In streamlit_app.py, I have implemented a very simple message to protect against malicious or deceptive prompts being sent to the main model.
+
 ## How to use this App
 
 Do you want to use this app?
