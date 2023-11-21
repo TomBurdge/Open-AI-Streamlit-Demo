@@ -24,7 +24,7 @@ If I was particularly concerned with making a production-ready and safe app, I w
 
 Interested in using this application?
 
-Visit [This link](https://parent-brands-open-ai-app-demo-cjwqtbpluasoalp3n4vz9q.streamlit.app/) to access the app, hosted on the Streamlit Community Cloud. At present, to access you will need a password.
+Visit [this link](https://parent-brands-open-ai-app-demo-cjwqtbpluasoalp3n4vz9q.streamlit.app/) to access the app, hosted on the Streamlit Community Cloud. At present, to access you will need a password.
 
 I don't want to flood streamlit's servers (this is hosted on StreamLit Community Cloud) or my own API key with traffic.
 
