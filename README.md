@@ -18,11 +18,18 @@ Similar risks exist with Large Language Models (LLMs) where prompts might be cra
 
 In the `streamlit_app.py` file, you'll find a simple method to safeguard against malicious or deceptive prompts.
 
+If I was particularly concerned with making a production-ready and safe app, I would also use some API calls. But this is just a fun demo.
+
 ## How to Use This App
 
 Interested in using this application?
 
 Visit [This link](https://parent-brands-open-ai-app-demo-cjwqtbpluasoalp3n4vz9q.streamlit.app/) to access the app, hosted on the Streamlit Community Cloud. At present, to access you will need a password.
 
+I don't want to flood streamlit's servers (this is hosted on StreamLit Community Cloud) or my own API key with traffic.
 
-If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached, or you don't have the password.
+If you want to access the site, then enter when prompted:
+- The two word magical phrase that opens the mouth of a cave in Ali Baba and the Fourty Thieves. Lower case and connected with hpyhens.
+- Connect the first phrase, with a hyphen, to the year (AD) that the siege of Amiens occured.
+
+If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached, or you haven't used the right the password.
