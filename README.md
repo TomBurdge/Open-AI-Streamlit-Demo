@@ -1,40 +1,28 @@
-### Streamlit with OpenAI
+# Streamlit with OpenAI
 
-OpenAI does some amazing things in the ChatGPT front-end app, but what is the easiest way to make a front-end app that uses ChatGPT?
+OpenAI has revolutionized the way we interact with AI through the ChatGPT front-end application. But how can one create a user-friendly front-end application that leverages ChatGPT's capabilities? The answer lies in Streamlit.
 
-Enter Streamlit. Streamlit is an extremely streamlined tool for simple web apps with python.
+Streamlit is an incredibly efficient framework for building simple web applications using Python. This repository provides an example of such an application, designed to receive and process user input.
 
-This repo is an example app which receives a user input.
+## The Use Case
 
-### The use case
-Let's say you work at a large company and you want to know the parent brand of a company.
+Imagine you're employed at a large corporation and need to ascertain the parent company of a specific brand. This information is crucial for market share analysis, especially when comparing your company's performance against its competitors. For instance, if you're working at Proctor & Gamble, it's not just about understanding your market share in comparison to Ben & Jerry's; you need to see the bigger picture against Unilever.
 
-This can be useful for comparing my company's share to its competitors - if I work for Proctor & Gamble I don't *only* want to know my market share against Ben&Jerry's; I want to know my market share against Unilever. If we have an app which can tell us the parent brand, we can find the parent company even if our data supplier hasn't given it to us.
+Consider a brand like MountainDew. You might know its parent company is PepsiCo. But what about a less-known example, such as Chattem, Inc.? Not everyone knows that Chattem was acquired by Sanofi in 2009. This is where OpenAI's extensive training on a vast array of internet sources becomes invaluable.
 
-I have a brand, MountainDew, but what is the parent brand?
+## Prompt Safety Handling
 
-In this case, you may know the parent brand is PepsiCo.
+One of the challenges with any application is ensuring that it is not misused, either by regular users or those impersonating authorized users. A classic example of such misuse is SQL injection, where attackers input destructive commands like `"""DELETE TABLE USERS"""` into SQL statements.
 
-But let's try a harder example, who is the parent brand of Chattem, Inc.
+Similar risks exist with Large Language Models (LLMs) where prompts might be crafted to extract sensitive information or promote discriminatory behavior. A practical solution is to use an LLM to screen the messages before they are processed by the main model.
 
-Probably only domain-specific specialists know that Chattem was acquired by Sanofi in 2009.
+In the `streamlit_app.py` file, you'll find a simple yet effective method implemented to safeguard against malicious or deceptive prompts.
 
-But OpenAI, which was effectively trained on the entire internet, does know this.
+## How to Use This App
 
-## Prompt safety handling
+Interested in using this application?
 
-A common issue with any app is that users, or those impersonating authorised users, try to misuse the app.
+Visit [example.com](http://https://example.com/.com) to access the app, hosted on the Streamlit Community Cloud.
 
-The most famous example of this is SQL insertion - where attackers try to insert unwanted behaviour such as """DELETE TABLE USERS""" into a SQL statement.
 
-This can happen with LLM prompts too - a user could try to get OpenAI to expose a password or behave discriminatorily.
-
-Probably the easiest way to handle this is to use an LLM to screen the message before it is actually processed.
-
-In streamlit_app.py, I have implemented a very simple message to protect against malicious or deceptive prompts being sent to the main model.
-
-## How to use this App
-
-Do you want to use this app?
-
-Go to **placeholder.com** to use this app hosted on streamlit community cloud.
+If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached.
