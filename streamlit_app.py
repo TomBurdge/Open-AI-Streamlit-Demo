@@ -7,7 +7,7 @@ if password_guess != st.secrets["streamlit_password"]:
     st.stop()
 st.write("Authenticated successfully.")
 
-st.title("Product Harmonisation with OpenAI")
+st.title("Parent Brands with OpenAI")
 
 
 openai_key = st.secrets["OPENAI_API_KEY"]
