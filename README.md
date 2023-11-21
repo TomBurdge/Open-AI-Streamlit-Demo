@@ -6,7 +6,7 @@ Streamlit is an incredibly efficient framework for building simple web applicati
 
 ## The Use Case
 
-Imagine you're employed at a large corporation and need to ascertain the parent company of a specific brand. This information is crucial for market share analysis, especially when comparing your company's performance against its competitors. For instance, if you're working at Proctor & Gamble, it's not just about understanding your market share in comparison to Ben & Jerry's; you need to see the bigger picture against Unilever.
+Imagine you're employed at a large corporation and need to find the parent company of a specific brand. This information is crucial for market share analysis, especially when comparing your company's performance against its competitors. For instance, if you're working at Proctor & Gamble, it's not just about understanding your market share in comparison to Ben & Jerry's; you need to see the bigger picture against Unilever.
 
 Consider a brand like MountainDew. You might know its parent company is PepsiCo. But what about a less-known example, such as Chattem, Inc.? Not everyone knows that Chattem was acquired by Sanofi in 2009. This is where OpenAI's extensive training on a vast array of internet sources becomes invaluable.
 
@@ -16,7 +16,7 @@ One of the challenges with any application is ensuring that it is not misused, e
 
 Similar risks exist with Large Language Models (LLMs) where prompts might be crafted to extract sensitive information or promote discriminatory behavior. A practical solution is to use an LLM to screen the messages before they are processed by the main model.
 
-In the `streamlit_app.py` file, you'll find a simple yet effective method implemented to safeguard against malicious or deceptive prompts.
+In the `streamlit_app.py` file, you'll find a simple method to safeguard against malicious or deceptive prompts.
 
 ## How to Use This App
 
