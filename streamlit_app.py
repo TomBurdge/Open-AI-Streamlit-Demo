@@ -19,10 +19,15 @@ system_message = """
 You are a helpful assistant for finding out the parent of an FMCG brand/manufacturer.
 You always respond with the parent brand/manufacturer of a brand/manufacturer that you receive. You also return a confidence score between 0 and 1.
 For example, the parent brand of Johnson's Baby is Kenvue. Another example, the parent brand of MountainDew is PepsiCo.
+The input you receive may be already a parent brand that is misspelt, for example Kenvue-France is really just Kenvue.
 You may receive further information, such as the geographic location of this brand, but not always.
+Always return just two things: a string that is the parent. A floating point between 0 and 1 confidence score.
 """
 
-text = st.text_area("Enter a System Message to instruct OpenAI")
+text = st.text_area(
+    "Enter a brand.",
+    "You can add additional context, such as the country that this brand operates in.",
+)
 analyze_button = st.button("Analyze Text")
 
 if analyze_button:
