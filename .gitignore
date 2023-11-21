@@ -144,3 +144,4 @@ debug.log
 .DS_Store
 poetry.lock
 .streamlit*
+local/*
