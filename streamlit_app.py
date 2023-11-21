@@ -47,8 +47,6 @@ if analyze_button:
         model="gpt-3.5-turbo",
     )
     safe = bool(response.choices[0].message.content.strip())
-    st.write("Safe output response:")
-    st.write(safe)
     if safe:
         message = [
             {
