@@ -18,7 +18,7 @@ Similar risks exist with Large Language Models (LLMs) where prompts might be cra
 
 In the `streamlit_app.py` file, you'll find a simple method to safeguard against malicious or deceptive prompts.
 
-If I was particularly concerned with making a production-ready and safe app, I would also use some API calls. But this is just a fun demo.
+If I was particularly concerned with making a production-ready and safe app, I would also use some exponential backoff on the API calls. But this is just a fun demo.
 
 ## How to Use This App
 
