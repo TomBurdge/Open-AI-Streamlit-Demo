@@ -66,7 +66,7 @@ if analyze_button:
         st.write(
             """
                  Your input was detected as being deceptive or malicious.
-                 Please do not attempt to do anything untoward with this app, it is just a personal project.
+                 Please do not attempt to do anything untoward with this app.
                  """
         )
         st.stop()
