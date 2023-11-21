@@ -25,4 +25,4 @@ Interested in using this application?
 Visit [https://open-ai-app-demo-wchtpx7nqlc7ulghpf2xcs.streamlit.app/](https://open-ai-app-demo-wchtpx7nqlc7ulghpf2xcs.streamlit.app/) to access the app, hosted on the Streamlit Community Cloud. At present, to access you will need a password.
 
 
-If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached.
+If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached, or you don't have the password.
