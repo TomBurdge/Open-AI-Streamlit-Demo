@@ -141,7 +141,6 @@ dmypy.json
 debug.log
 
 # Files
-.DS_Store
 poetry.lock
 .streamlit*
 local/*
