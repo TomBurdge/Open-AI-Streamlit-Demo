@@ -29,7 +29,7 @@ Visit [This link](https://parent-brands-open-ai-app-demo-cjwqtbpluasoalp3n4vz9q.
 I don't want to flood streamlit's servers (this is hosted on StreamLit Community Cloud) or my own API key with traffic.
 
 If you want to access the site, then enter when prompted:
-- The two word magical phrase that opens the mouth of a cave in Ali Baba and the Fourty Thieves. Lower case and connected with hpyhens.
-- Connect the first phrase, with a hyphen, to the year (AD) that the siege of Amiens occured.
+- The two-word magical phrase that opens the mouth of a cave in Ali Baba and the Fourty Thieves. Lower case and connected with hpyhens.
+- Connect the first phrase, with a hyphen, to the year (AD) that the Siege of Amiens occured.
 
 If you cannot use this app, please raise an issue. It is likely that a spending limit has been reached, or you haven't used the right the password.
