@@ -5,6 +5,7 @@ password_guess = st.text_input("What is the password for this app?")
 
 if password_guess != st.secrets["streamlit_password"]:
     st.stop()
+st.write("Authenticated successfully.")
 
 st.title("Product Harmonisation with OpenAI")
 
