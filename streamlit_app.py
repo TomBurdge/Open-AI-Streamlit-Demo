@@ -1,6 +1,11 @@
 import streamlit as st
 from openai import OpenAI
 
+password_guess = st.text_input("What is the password for this app?")
+
+if password_guess != st.secrets["streamlit_password"]:
+    st.stop()
+
 st.title("Product Harmonisation with OpenAI")
 
 
